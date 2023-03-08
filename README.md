@@ -1,13 +1,19 @@
-# Assignment 2 - Building a Django application 
+# movie-fe
 
-## (Part 1 - Backend)
+## Project setup
+```
+npm install
+```
 
-[Assignment](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/EQ4NXcjUUcJIvia422-elQgB1Kn445_n3WVWlZrFu4vlvg?e=5vYqC4)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-[Tutorial - Backend](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/Ef0Ao6ob6XBPrxYEZeR5io0BkFtU8ON8xWCL6DwkynLfig?e=IJryzz)
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## (Part 2 - Frontend)
-
-[Assignment](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/EQ4NXcjUUcJIvia422-elQgB1Kn445_n3WVWlZrFu4vlvg?e=5vYqC4)
-
-[Tutorial - Frontend](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/EUP71wYfYLlIrTUcM1bg-KgBlrPBM3I-ELWwEzTmGDtMGw?e=z0fR4z)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

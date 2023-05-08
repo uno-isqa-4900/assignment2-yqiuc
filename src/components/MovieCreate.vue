@@ -96,6 +96,7 @@ export default {
       router.push("/movie-list");
     },
     updateMovie() {
+      console.log('updateMovie() called');
       apiService.updateMovie(this.movie).then(response => {
         if (response.status === 200) {
           this.movie = response.data;
@@ -127,4 +128,3 @@ export default {
     },
 }
 </script>
-

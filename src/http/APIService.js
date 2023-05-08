@@ -30,6 +30,13 @@ export class APIService {
         return axios.post(url, movie, {headers: headers});
     }
 
+    updateMovie(movie){
+        const url = `${API_URL}/api/movies/${movie.pk}`;
+        let jwtToken = localStorage.getItem('token');
+        const headers = {Authorization: `jwt ${jwtToken}`};
+        return axios.put(url, movie, {headers: headers});
+    }
+
     deleteMovie(movie_Pk) {
         const url = `${API_URL}/api/movies/${movie_Pk}`;
         let jwtToken = localStorage.getItem('token');
